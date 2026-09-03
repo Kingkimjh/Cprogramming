@@ -18,7 +18,7 @@ double*pt;
 - 다음에서 pt가 가리키는 데이터의 자료형은 double입니다.
 - 다음에서 pt는 double형을 가리키는 주소를 저장하는 포인터이다.
 - 다음에서 pt의 자료형은 double*이다.
-- 
+- 다음 처럼 포인터를 선언할 때 double은 포인터 pt가 가리키는 변수이다.
 - 포인터 변수 pt가 메모리에 할당될 때 메모리는 8byte의 크기를 가진다.
 
 ### 실습과제3
@@ -35,3 +35,56 @@ double db = 3.4;
 |&db|105|db*|
 
 ### 실습과제4
+- **다음 코드처럼 변수 a, b, c를 선언하고 각 변수의 주소를 주소연산자(&)를 이용하여 화면에 다음 처럼 출력하라.**
+<img width="623" height="243" alt="image" src="https://github.com/user-attachments/assets/5ed3038a-d12c-4d81-b049-eaad646b1ea4" />
+
+
+# 코드설명
+```
+#include<stdio.h>
+```
++ printf,scanf 등 라이브러리 함수의 선언을 포함하고 있는 헤더파일 stdio.h을 포함하라
+```
+#define _CRT_SECURE_NO_WARNINGS
+```
++ 보안오류방지
+```
+#pragma warning(disable:6031)
+```
++ 리턴값관련 경고 방지
+```
+int main(void)
+```
++ 메인함수 시작
+```
+char a = 'A';
+```
++ 문자형 변수 a에 값을 저장
+```
+int b = 36;
+```
++ 정수형 변수 b에 값을 저장
+```
+double c = 3.141592;
+```
++ 실수형 변수 c에 값을 저장
+```
+printf("char형 변수 a의 주소: %u\n", &a);
+```
++ 화면에 'char형 변수 a의 주소:'와 변수 a의 주소를 출력하라. printf는 문자열을 화면에 출력해주는 함수
+```
+printf("int형 변수 b의 주소: %u\n", &b);
+```
++ 화면에 'int형 변수 b의 주소:'와 변수 b의 주소를 출력하라. printf는 문자열을 화면에 출력해주는 함수
+```
+printf("double형 변수 c의 주소: %u\n", &c);
+```
++ 화면에 'int형 변수 c의 주소:'와 변수 c의 주소를 출력하라. printf는 문자열을 화면에 출력해주는 함수
+```
+return 0;
+```
++ 0을 반환하고 메인함수 정상 종료
+
+# 실행결과
+
+<img width="868" height="127" alt="image" src="https://github.com/user-attachments/assets/fdf6c9f6-a289-4355-a442-2660c5983275" />
