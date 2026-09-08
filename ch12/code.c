@@ -4,9 +4,9 @@
 // 작성자 : 2600055 김준혁
 // **********************************************
 
-#include<stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable:6031)
+#include <stdio.h>
 
 int main(void)
 {
