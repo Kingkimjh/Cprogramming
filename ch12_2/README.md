@@ -58,9 +58,11 @@ char형 변수 b에 'A'를 저장
 ```
 double c = 3.14;
 ```
+double형 변수 c에 '3.14'를 저장
 ```
 int* pa = &a;
 ```
+
 ```
 char* pb = &b;
 ```
