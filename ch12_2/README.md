@@ -38,4 +38,47 @@ int형 변수 a의 값은: -100
 char형 변수 b의 값은: A
 double형 변수 c의 값은: 3.14
 ```
+### 수정된 소스코드설명
+```
+#include <stdio.h>
+```
+- printf,scanf 등 라이브러리 함수의 선언을 포함하고 있는 헤더파일 stdio.h을 포함하라
+```
+int main(void)
+```
+- 메인함수 시작
+```
+int a = -100;
+```
+int형 변수 a에 '-100'값을 저장
+```
+char b = 'A';
+```
+char형 변수 b에 'A'를 저장
+```
+double c = 3.14;
+```
+```
+int* pa = &a;
+```
+```
+char* pb = &b;
+```
+```
+double* pc = &c;
+```
+```
+printf("int형 변수 a의 값은: %d\n", *pa);
+```
+```
+printf("char형 변수 b의 값은: %c\n", *pb);
+```
+```
+printf("double형 변수 c의 값은: %lf\n", *pc);
+```
+```
+return 0;
+```
+- 0을 반환하고 메인함수 정상 종료
+<img width="1108" height="184" alt="image" src="https://github.com/user-attachments/assets/680fc671-9015-43e8-b5a4-7383ec3fbd9e" />
 
