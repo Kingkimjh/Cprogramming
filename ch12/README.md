@@ -22,12 +22,14 @@ double*pt;
 - 포인터 변수 pt가 메모리에 할당될 때 메모리는 8byte의 크기를 가진다.
 
 ### 실습과제3
-- **아래의 변수가 우측 그림처럼 메모리가 할당될 때 다음 표의 빈칸을 채우시오.**
+- **아래의 변수가 그림처럼 메모리가 할당될 때 다음 표의 빈칸을 채우시오.**
 ```
 char ch = 'A';
 int in = 10;
 double db = 3.4;
 ```
+<img width="199" height="546" alt="image" src="https://github.com/user-attachments/assets/58cea866-19d8-42cf-a5e5-531bda8ade13" />
+
 |수식|결과값|결과값의 자료형|
 |:---:|:---:|:---:|
 |&ch|100|ch*|
