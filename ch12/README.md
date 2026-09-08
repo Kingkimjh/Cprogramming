@@ -41,10 +41,6 @@ double db = 3.4;
 
 # 코드설명
 ```
-#include<stdio.h>
-```
-+ printf,scanf 등 라이브러리 함수의 선언을 포함하고 있는 헤더파일 stdio.h을 포함하라
-```
 #define _CRT_SECURE_NO_WARNINGS
 ```
 + 보안오류방지
@@ -52,6 +48,10 @@ double db = 3.4;
 #pragma warning(disable:6031)
 ```
 + 리턴값관련 경고 방지
+```
+#include<stdio.h>
+```
++ printf,scanf 등 라이브러리 함수의 선언을 포함하고 있는 헤더파일 stdio.h을 포함하라
 ```
 int main(void)
 ```
