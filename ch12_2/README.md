@@ -62,16 +62,19 @@ double형 변수 c에 '3.14'를 저장
 ```
 int* pa = &a;
 ```
-
+변수 a의 주소값을 포인터 변수 pa에 저장
 ```
 char* pb = &b;
 ```
+변수 b의 주소값을 포인터 변수 pb에 저장
 ```
 double* pc = &c;
 ```
+변수 c의 주소값을 포인터 변수 pc에 저장
 ```
 printf("int형 변수 a의 값은: %d\n", *pa);
 ```
+
 ```
 printf("char형 변수 b의 값은: %c\n", *pb);
 ```
