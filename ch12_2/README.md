@@ -91,13 +91,12 @@ return 0;
 ### 실행결과
 <img width="1108" height="184" alt="image" src="https://github.com/user-attachments/assets/680fc671-9015-43e8-b5a4-7383ec3fbd9e" />
 
-----------
 ## 실습과제 3
 <img width="750" height="250" alt="image" src="https://github.com/user-attachments/assets/6e06165f-c6aa-49f3-b673-9da81f27fccc" />
 
 * 125를 정수형 데이터가 저장된 메모리 주소로 사용하기 위해
 * 125를 강제로 메모리 주소로 변환해 그 주소에 데이터를 저장하려 했기 때문
-----------
+
 ## 실습과제 4
 
 ### 소스코드 설명
@@ -141,7 +140,7 @@ return 0;
 ### 실행결과
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/fb4fb623-6772-4d86-8f2b-5244b3ca940e" />
 **사용하던 노트북이 고장인 관계로 친구의 컴퓨터로 코드를 실행하였습니다.**
-----------
+
 ## 실습과제 5
 
 ### 소스코드 설명
