@@ -100,7 +100,7 @@ return 0;
 ----------
 ## 실습과제 4
 
-▼ 소스코드 설명
+### 소스코드 설명
 ```
 #include <stdio.h>
 ```
@@ -138,13 +138,13 @@ return 0;
 ```
 - 0을 반환하고 메인함수 정상 종료
 
-▼ 실행결과
+### 실행결과
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/fb4fb623-6772-4d86-8f2b-5244b3ca940e" />
-
+**사용하던 노트북이 고장인 관계로 친구의 컴퓨터로 코드를 실행하였습니다.**
 ----------
 ## 실습과제 5
 
-▼ 소스코드 설명
+### 소스코드 설명
 ```
 #include <stdio.h>
 ```
@@ -209,5 +209,6 @@ return 0;
 ```
 - 0을 반환하고 메인함수 정상 종료
 
-▼ 실행결과
+### 실행결과
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/1cba956d-797e-4b97-9c68-99391d2355bd" />
+**사용하던 노트북이 고장인 관계로 친구의 컴퓨터로 코드를 실행하였습니다.**
