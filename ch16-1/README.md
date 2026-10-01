@@ -262,5 +262,5 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ## 실행결과
-<img width="1001" height="170" alt="image" src="https://github.com/user-attachments/assets/4d5371a0-4587-462d-a710-999eb0912153" />
+<img width="996" height="124" alt="image" src="https://github.com/user-attachments/assets/417160d6-4f0d-42b9-8024-f8ec0fa0008d" />
 
