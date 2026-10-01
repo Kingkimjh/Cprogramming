@@ -213,7 +213,7 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ## 실행결과
-<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/6c709fa9-9346-4b1a-8e0e-ef1f1aa8cf8d" />
+<img width="1002" height="168" alt="image" src="https://github.com/user-attachments/assets/6ac00298-5757-4f66-a8a5-390ecccd2958" />
 
 ----------
 ## 실습과제 5
