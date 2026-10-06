@@ -28,9 +28,9 @@ double** dptr = &ptr;
 ```
 - scanf, printf, 등 여러가지 라이브러리가 들어있는 stdio.h를 포함해라.
 ```
-int get_max(int** pt1, int n);
+int get_max(int** arr[], int x);
 ```
-- n과 이중 포인터 pt1를 전달받는 get_max 선언
+- n과 이중 포인터 arr를 전달받는 get_max 선언
 ```
 int main(void)
 ```
@@ -60,27 +60,28 @@ return 0;
 ```
 - 0을 반환하고 메인함수 정상 종료
 ```
-int get_max(int** pt1, int n)
+int get_max(int** arr[], int x)
 ```
-- n과 이중 포인터 pt1를 전달받는 get_max 선언
+- x와 이중 포인터 arr를 전달받는 get_max 선언
 ```
 int* x1 = *pt1;
 ```
-- 포인터 변수 x1 선언 후 포인터 pt1 저장
+- 변수 max 선언 후 포인터  저장
 ```
-int i;
+for (int i = 0; i >= x; i++)
+	{
+		if (*arr[i] > max)
+		{
+			max = *arr[i];
+		}
+	}
+	return max;
 ```
 - 정수형 변수 i 선언
-```
-for (i = 1; i < n; i++)
-  if (*(pt1[i]) > x1)
-    x1 = *(pt1[i]);
-return *x1;
-```
-- i에 1 저장 후 n 보다 작으면 반복
-- 포인터 pt1[i]가 x1보다 클 때
-- x1에 포인터 pt1[i] 저장
-- 포인터 x1 반환
+- i에 1 저장 후 x 보다 작으면 반복
+- 포인터 arr[i]가 max보다 클 때
+- max에 포인터 arr[i] 저장
+- 포인터 max 반환
 
 ## 실행결과
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/9d85dd1b-1d0f-4633-9afd-0a4f4df9915e" />
