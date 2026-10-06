@@ -5,7 +5,7 @@
 // **********************************************
 
 #include <stdio.h>
-int get_max(int arr[], int x);
+int get_max(int** arr[], int x);
 
 int main(void)
 {
