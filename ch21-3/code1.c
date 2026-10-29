@@ -1,3 +1,9 @@
+// **********************************************
+// 제 목 : 실습과제 1
+// 날 짜 : 2026년 10월 29일
+// 작성자 : 2600055 김준혁
+// **********************************************
+
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable:6031)
 #include<stdio.h>
@@ -18,7 +24,7 @@ int main(void)
 		{
 			if (strlen(str2) > 0) strcat(str2, " ");
 			strcat(str2, str1);
-			printf("%s \n", str2);
+			printf("입력된 문자열:%s \n", str2);
 		}
 	}
 }
