@@ -39,7 +39,9 @@ int main(void)
 	line[2] = (((pnt.p[0].x - pnt.p[2].x) * (pnt.p[0].x - pnt.p[2].x)) + 
 		((pnt.p[0].y - pnt.p[2].y) * (pnt.p[0].y - pnt.p[2].y)));
 
-	if ((line[1] + line[2] == line[0]) || (line[0] + line[2] == line[1]) || (line[1] + line[0] == line[2]))
+	if ((line[1] + line[2] == line[0]) || 
+		(line[0] + line[2] == line[1]) || 
+		(line[1] + line[0] == line[2]))
 		printf("삼각형은 직각삼각형임");
 
 	else
